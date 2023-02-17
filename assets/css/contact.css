@@ -1,0 +1,10 @@
+@media screen and (min-width: 479px) {
+    .section {
+        padding: 100px 0 0 0;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .contact_section {
+        padding: 200px 0;
+    }
+}

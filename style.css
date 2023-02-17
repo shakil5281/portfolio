@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    padding: 40px 10px;
+    background-color: #00800000;
+}
+
+#logo {
+    font-size: 2rem;
+}
+
+
+.section {
+    padding: 100px 0 0 0;
+}
+
+.Section_header h2 {
+    text-align: center;
+    color: #b3b1b1;
+}
+
+.Section_header p {
+    text-align: center;
+    color: #b3b1b1;
+}
+
+.contact_section {
+    padding: 200px 0
+}
+
+
+div.about_section img {
+    width: 90%;
+    padding: 50px;
+}
+
+div.about_text {
+    padding: 50px;
+}
+div.about_text h5 {
+    padding: 10px 0;
+    color: #009e66;
+    font-size: 1.5rem;
+}
+div.about_text h4 {
+    padding: 10px 0;
+    color: gray;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+div.about_text p {
+    padding: 10px 0;
+    color: gray;
+    text-align: left;
+    line-height: 30px;
+}
+.content_follow{
+    margin: 0 100px;
+}
+
+.card {
+    padding: 40px;
+    margin: 40px 20px;
+}
+
+.card-body h4 {
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(61, 61, 63);
+    cursor: pointer;
+}
+
+div.card svg {
+    font-size: large;
+}
+
+@media screen and (max-width: 480px) {
+    div.card {
+        margin: 40px 20px;
+    }
+}
+
+
+.navbar-toggler-icon:active {
+    border: none;
+}
+
+.active_link:active{
+    color: #fff;
+}
+
+
+/* border */
+div.border_system{
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    position: absolute;
+    width: 70px;
+    margin: 0 175px;
+    
+}
+
+
+
