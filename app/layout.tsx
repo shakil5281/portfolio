@@ -5,6 +5,12 @@ import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: 'protfolio - SHAKIL',
+  description: 'Web Development',
+}
 
 const fontSans = FontSans({
   subsets: ["latin"],
